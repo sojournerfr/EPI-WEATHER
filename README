@@ -1,0 +1,40 @@
+# 🌦️ EPI-WEATHER
+Author : David Caron
+Mail : david.caron@epitech.eu
+Date : 05/2025
+
+## 🛠️ How it work ?
+The EPI-WEATHER project measures temperature and humidity using a DHT11 sensor connected to an Arduino Uno board. The collected data is displayed in real-time on an OLED SSD1306 screen via I2C. At the same time, this data is sent to a web server installed on a Raspberry Pi 4, allowing the data to be viewed remotely on a browser.
+
+## 🧰 Materials required
+
+| Component            | Reference               |
+| -------------------- | ----------------------- |
+| Microcontroller      | Arduino Uno R3          |
+| Temp/Humidity Sensor | DHT11                   |
+| I2C OLED Display     | SSD1306 (128x64)        |
+| Jumper Wires         | Male-to-Female (M/F)    |
+| Computer             | With USB port           |
+| Local WiFi Network   | Box, router, or hotspot |
+| (Optional) Server    | Raspberry Pi 4          |
+
+## 🔌 Wiring Diagram
+
+| OLED Pin    | Arduino Uno Pin  |
+| ------------|------------------|
+| VCC         | 5V               |
+| GND         | GND              |
+| SDA         | A4               |
+| SCL         | A5               |
+
+
+| Temp/Humidity Sensor  | Arduino Uno Pin  |
+| ----------------------|------------------|
+| GND                   | GND              |
+| VCC                   | 3.5V             |
+| DATA                  | Pin2             |
+
+
+## 💻 Framework Used
+
+The EPI-WEATHER project is developed using PlatformIO within the Visual Studio Code IDE.
