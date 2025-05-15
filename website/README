@@ -1,0 +1,3 @@
+In this current directory ('website'), you can find my index.php page that load the Arduino's values
+This file call a python script under the script folder, which one read the flew values from the Arduino and return them.
+So, if you want to use it notice that you must find on wich wire do you plug your Arduino, and change the script.py file to the correct one.
